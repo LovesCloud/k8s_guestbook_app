@@ -6,7 +6,7 @@ metadata:
     app: guestbook
     tier: frontend
 spec:
-  # comment or delete the following line if you want to use a LoadBalancer
+  # uncomment  the following line if you want to use a NodePort in case you are deploying over minikube.
   #type: NodePort 
   # if your cluster supports it, uncomment the following to automatically create
   # an external load-balanced IP for the frontend service.
